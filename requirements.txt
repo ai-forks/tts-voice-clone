@@ -1,3 +1,7 @@
+pydantic==1.10.12
+pillow
+pandas
+streamlit
 umap-learn
 visdom
 librosa
@@ -25,9 +29,9 @@ PyYAML
 torch_complex
 espnet
 PyWavelets
-monotonic-align==0.0.3
 transformers
 fastapi
 loguru
-typer[all]
+typer #[all]
 click
+monotonic-align
