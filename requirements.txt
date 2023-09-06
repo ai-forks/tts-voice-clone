@@ -5,7 +5,7 @@ streamlit
 umap-learn
 visdom
 librosa
-matplotlib>=3.3.0
+matplotlib
 numpy
 scipy>=1.0.0
 tqdm
@@ -34,4 +34,4 @@ fastapi
 loguru
 click
 typer #[all]
-monotonic-align
+# monotonic-align
