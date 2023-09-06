@@ -32,6 +32,6 @@ PyWavelets
 transformers
 fastapi
 loguru
-typer #[all]
 click
+typer #[all]
 monotonic-align
