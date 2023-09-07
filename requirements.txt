@@ -2,12 +2,19 @@ pydantic==1.10.12
 pillow
 pandas
 streamlit
+sklearn
+
+fastapi
+loguru
+click
+typer
+
 umap-learn
 visdom
 librosa
 matplotlib
 numpy
-scipy>=1.0.0
+scipy
 tqdm
 sounddevice
 SoundFile
@@ -30,8 +37,5 @@ torch_complex
 espnet
 PyWavelets
 transformers
-fastapi
-loguru
-click
-typer #[all]
+ #[all]
 # monotonic-align
