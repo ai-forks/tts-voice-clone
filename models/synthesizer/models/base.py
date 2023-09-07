@@ -48,10 +48,12 @@ class Base(nn.Module):
     def load(self, path, device, optimizer=None):
         # Use device of model params as location for loaded state
         checkpoint = torch.load(str(path), map_location=device)
+        print(f"torch load {str(path)}")
         if "model_state" in checkpoint:
             state = checkpoint["model_state"]
         else:
             state = checkpoint["model"]
+        print(f"load state dict {state}")
         self.load_state_dict(state, strict=False)
 
         if "optimizer_state" in checkpoint and optimizer is not None:
