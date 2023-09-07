@@ -39,4 +39,4 @@ espnet
 PyWavelets
 transformers
  #[all]
-monotonic-align
+#monotonic-align
