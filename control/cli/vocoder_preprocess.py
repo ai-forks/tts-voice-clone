@@ -44,7 +44,7 @@ if __name__ == "__main__":
     if args.cpu:
         # Hide GPUs from Pytorch to force CPU processing
         os.environ["CUDA_VISIBLE_DEVICES"] = ""
-    
+    print(f"==========> use cpu = {args.cpu}")
     # Verify webrtcvad is available
     if not args.no_trim:
         try:
