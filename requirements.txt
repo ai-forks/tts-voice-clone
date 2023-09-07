@@ -1,3 +1,4 @@
+numpy==1.24
 pydantic==1.10.12
 pillow
 pandas
@@ -13,7 +14,7 @@ umap-learn
 visdom
 librosa
 matplotlib
-numpy
+
 scipy
 tqdm
 sounddevice
@@ -38,4 +39,4 @@ espnet
 PyWavelets
 transformers
  #[all]
-# monotonic-align
+monotonic-align
