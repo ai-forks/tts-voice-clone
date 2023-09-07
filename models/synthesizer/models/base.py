@@ -53,7 +53,7 @@ class Base(nn.Module):
             state = checkpoint["model_state"]
         else:
             state = checkpoint["model"]
-        print(f"load state dict {state}")
+        print(f"load state dict ")
         self.load_state_dict(state, strict=False)
 
         if "optimizer_state" in checkpoint and optimizer is not None:
